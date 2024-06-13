@@ -31,10 +31,6 @@ En resumen, este CSS proporciona un diseño flexible y adaptable que ajusta el
 *{
     box-sizing: border-box;
 }
-body{
-    margin: 0;
-    padding: 0;
-}
 
 .col-1{
     width: 8.33%;
@@ -72,7 +68,7 @@ body{
 .col-12{
     width: 100%;
 }
-
+/*
 @media only screen and (width<=768px){
     [class*="col-"]{
         width: 100%;
@@ -92,7 +88,7 @@ body{
         width: 100%;
     }
 
-}
+}*/
 /* Estilos para el juego de palabras responsive */
 * {
     box-sizing: border-box;
